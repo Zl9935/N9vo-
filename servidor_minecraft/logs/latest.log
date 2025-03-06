@@ -671,3 +671,6 @@ com.google.gson.JsonSyntaxException: Expected item to be a string, was an object
 [17:07:05] [Server thread/INFO]: LuxSilver has made the advancement [Stone Age]
 [17:07:26] [Worker-Main-2/WARN]: Unable to read property: type with value: single for blockstate: {Name:"meadow:bench",Properties:{facing:"west",type:"single",waterlogged:"false"}}
 [17:07:26] [Worker-Main-2/WARN]: Unable to read property: type with value: single for blockstate: {Name:"meadow:bench",Properties:{facing:"south",type:"single",waterlogged:"false"}}
+[17:09:29] [Server thread/INFO]: LuxSilver lost connection: Disconnected
+[17:09:29] [Server thread/INFO]: LuxSilver left the game
+[17:09:29] [Server thread/INFO]: Removing session data for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
