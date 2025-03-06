@@ -657,3 +657,15 @@ com.google.gson.JsonSyntaxException: Expected item to be a string, was an object
 [16:22:49] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
 [16:22:49] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
 [16:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
+[16:41:47] [Server thread/INFO]: LuxSilver[/127.14.84.239:56077] logged in with entity id 1 at (7.70042918326222, 79.0, 101.6448359568066)
+[16:41:48] [Server thread/INFO]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[16:41:48] [Server thread/INFO]: Loading config from file...
+[16:41:48] [Server thread/INFO]: LuxSilver joined the game
+[16:41:48] [Server thread/INFO]: Player LuxSilver just logged in with id 627b3782-d24f-356a-b10f-fe70da0cb127
+[16:41:48] [ForkJoinPool-3-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/LuxSilver downloaded
+[16:41:49] [ForkJoinPool-3-worker-1/INFO]: File https://crafatar.com/skins/20d47de1-57d8-467d-beb1-04f31257aa10 downloaded
+[16:41:49] [ForkJoinPool-3-worker-1/INFO]: Loaded skin for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
+[16:41:49] [ForkJoinPool-3-worker-2/INFO]: Caching file world/skin_changer/skins/627b3782-d24f-356a-b10f-fe70da0cb127
+[16:41:49] [ForkJoinPool-3-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/LuxSilver downloaded
+[16:42:06] [Netty Epoll Server IO #3/INFO]: [STDOUT]: SAVE DIR: ./config
+[16:42:06] [Netty Epoll Server IO #3/INFO]: [STDOUT]: SAVE DIR: ./config/WildfireGender
