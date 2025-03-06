@@ -1,0 +1,17 @@
+Lightroom = {}
+
+[Camera]
+	#Default focal range of the camera (without a lens attached).
+	#Allowed range: 10-300
+	#Default: 18-55
+	DefaultFocalRange = "18-55"
+	#Can attack while looking through Viewfinder.
+	#Default: true
+	ViewfinderAttacking = true
+	#Right-clicking Camera in GUI will open Camera attachments screen. Only in player inventory.
+	#Default: true
+	RightClickAttachmentsScreen = true
+	#Right-clicking Camera in GUI with attachment item will insert/swap it.
+	#Default: true
+	RightClickHotswap = true
+

@@ -1,29 +1,24 @@
-[00:25:29] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[00:25:30] [ForkJoinPool-1-worker-1/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:25:30] [ForkJoinPool-1-worker-2/WARN]: Mod sleepwarp uses the version 2.2.0_rc1+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0_rc1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:25:30] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[16:22:11] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[16:22:12] [ForkJoinPool-1-worker-1/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:22:12] [ForkJoinPool-1-worker-1/WARN]: Mod sleepwarp uses the version 2.2.0_rc1+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0_rc1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:22:12] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[00:25:30] [ForkJoinPool-1-worker-2/WARN]: The mod "lilis_lucky_lures" contains invalid entries in its mod json:
+[16:22:12] [ForkJoinPool-1-worker-4/WARN]: The mod "lilis_lucky_lures" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 10 column 12
-[00:25:30] [main/WARN]: Warnings were found!
- - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
-	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
- - Mod 'Exposure' (exposure) 1.7.9 recommends version 0.5.1-f or later of create, which is missing!
-	 - You should install version 0.5.1-f or later of create for the optimal experience.
+[16:22:12] [main/WARN]: Warnings were found!
  - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.0.4 conflicts with any version before 2.0.0 of mod '[Let's Do] Bakery' (bakery), which is present with the following versions: 1.1.15!
 	 - While this won't prevent you from starting the game, the developer(s) of mod '[Let's Do] Farm & Charm' (farm_and_charm) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
  - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.0.4 conflicts with any version before 2.0.0 of mod '[Let's Do] Brewery' (brewery), which is present with the following versions: 1.1.9!
 	 - While this won't prevent you from starting the game, the developer(s) of mod '[Let's Do] Farm & Charm' (farm_and_charm) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
- - Mod 'SleepWarp' (sleepwarp) 2.2.0_rc1+1.20.1 recommends version 7.0.1 of modmenu, which is disabled for this environment (client/server only)!
+ - Mod 'SleepWarp' (sleepwarp) 2.2.0_rc1+1.20.1 recommends version 7.0.1 of modmenu, which is missing!
 	 - You should install version 7.0.1 of modmenu for the optimal experience.
  - Mod 'SleepWarp' (sleepwarp) 2.2.0_rc1+1.20.1 recommends version 3.0.1 of yet-another-config-lib, which is missing!
 	 - You should install version 3.0.1 of yet-another-config-lib for the optimal experience.
-[00:25:30] [main/INFO]: Loading 224 mods:
+[16:22:12] [main/INFO]: Loading 231 mods:
 	- accessories 1.0.0-beta.46+1.20.1
 	   |-- io_wispforest_endec 0.1.8
 	   |-- io_wispforest_endec_gson 0.1.5
 	   \-- io_wispforest_endec_netty 0.1.4
-	- adventurez 1.4.20
 	- aether 1.5.2-beta.5
 	   |-- cumulus_menus 1.20.1-1.0.1-fabric
 	   |-- mm_shedaniel 2.4.1
@@ -61,29 +56,27 @@
 	   |-- porting_lib_networking 2.3.9-beta.51+1.20.1
 	   |-- porting_lib_recipe_book_categories 2.3.9-beta.51+1.20.1
 	   \-- porting_lib_tags 3.0
+	- appleskin 2.5.1+mc1.20
 	- archers 1.3.0+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
 	- architectury 9.2.14
 	- artifacts 9.5.13
 	   |-- expandability 9.0.4
 	   \-- step-height-entity-attribute 1.2.0
+	- azurelib 2.0.41
 	- azurelibarmor 2.0.14
 	- bakery 1.1.15
 	- balm-fabric 7.3.18
 	   \-- kuma_api 20.1.9-SNAPSHOT
-	- bclib 3.0.14
-	   \-- wunderlib 1.1.5
 	- betterdeserttemples 1.20-Fabric-3.0.3
 	   \-- org_reflections_reflections 0.10.2
 	- betterdungeons 1.20-Fabric-4.0.4
-	- betterend 4.0.11
 	- betterfortresses 1.20-Fabric-2.0.6
 	- betterjungletemples 1.20-Fabric-2.0.5
 	- bettermineshafts 1.20-Fabric-4.0.4
 	- betteroceanmonuments 1.20-Fabric-3.0.4
 	- betterstrongholds 1.20-Fabric-4.0.3
 	- betterwitchhuts 1.20-Fabric-3.0.3
-	- bountiful 6.0.4+1.20.1
 	- brewery 1.1.9
 	- cardinal-components 5.2.3
 	   |-- cardinal-components-base 5.2.3
@@ -99,26 +92,20 @@
 	- clumps 12.0.0.4
 	- comforts 6.4.0+1.20.1
 	   \-- spectrelib 0.13.15+1.20.1
-	- coroutil 1.20.1-1.3.7
+	- connectivity 1.20.1-7.1
 	- cristellib 1.1.5
 	   \-- blue_endless_jankson 1.2.3
-	- ctov 3.4.12
 	- cupboard 1.20.1-2.7
-	- debugify 1.20.1+2.0
+	- default_skill_trees 1.1
 	- dehydration 1.3.6
 	- doapi 1.2.15
 	   \-- terraform-wood-api-v1 7.0.1
 	- dummmmmmy 1.20-2.0.6
 	- dungeons_arise 2.1.58
-	- e4mc_minecraft 5.0.0
 	- emi 1.1.20+1.20.1+fabric
 	- emi_letsdo_compat 1.6
 	- emi_loot 0.7.5+1.20.1+fix1+fabric
-	- entity-view-distance 1.1.2+1.20
-	   \-- spruceui 5.0.0+1.20
-	- entityculling 1.6.6
 	- explorify 1.6.2
-	- exposure 1.7.9
 	- extraspellattributes 1.3.0
 	- fabric-api 0.92.2+1.20.1
 	   |-- fabric-api-base 0.4.31+1802ada577
@@ -190,286 +177,242 @@
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- farm_and_charm 1.0.4
-	- fastboot 1.2-fabric
-	- fastpaintings 1.20-1.2.7
-	- ferritecore 6.0.1
 	- forgeconfigapiport 8.0.1
 	- fzzy_config 0.6.4+1.20.1
 	   |-- fabric-permissions-api-v0 0.3.1
 	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
 	- gazebo 1.1.1+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
-	- guarding 2.4.0
-	   |-- mm 2.3
-	   \-- scribe 1.20.1-0.5.0-alpha
 	- herbalbrews 1.0.11
-	- hopobetterruinedportal 1.3.7
 	- iceberg 1.1.25
+	- immersive_armors 1.6.1+1.20.1
+	- jade 11.12.3+fabric
 	- java 17
 	- jewelry 1.3.7+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
-	- kambrik 6.1.1+1.20.1
 	- ksyxis 1.3.3
-	- lazydfu 0.1.3
 	- letsdocompat 2.1.0
 	- lilis_lucky_lures 1.0.2
-	- lithostitched 1.4
 	- lootintegrations 1.20.1-4.2
 	- lootr 0.7.35.85
 	- magistuarmory 9.20
 	- maxhealthfix 12.0.3
 	- meadow 1.3.23
-	- memoryleakfix 1.1.5
+	- medievalorigins 6.5.1+1.20.1-fabric
+	   |-- apugli 2.10.2+1.20.1-fabric
+	   |    \-- midnightlib 1.4.1
+	   |-- autotag 2.0.2+1.20
+	   |-- projectile_damage 3.2.2+1.20.1
+	   \-- reach-entity-attributes 2.4.0
 	- minecraft 1.20.1
-	- mixintrace 1.1.1+1.17
-	- mobtimizations 1.20.1-1.0.0
-	- modernfix 5.18.1+mc1.20.1
 	- moonlight 1.20-2.13.71
 	- mr_dungeons_andtaverns 3.0.3.f
-	- nochatreports 1.20.1-v2.2.2
-	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
-	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- originfur 1.0.10
+	- origins 1.10.0
+	   \-- apoli 2.9.0
+	        |-- additionalentityattributes 1.3.0+1.20.0
+	        |-- calio 1.11.0
+	        \-- playerabilitylib 1.8.0
 	- paladins 1.4.0+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
 	- paraglider 20.1.3
+	- pehkui 3.8.3+1.14.4-1.21
+	   \-- kanos_config 0.4.1+1.14.4-1.19.4
 	- philipsruins 4.9
 	- player-animator 1.0.2-rc1+1.20
+	- polymer-bundled 0.5.20+1.20.1
+	   |-- polymer-autohost 0.5.20+1.20.1
+	   |-- polymer-blocks 0.5.20+1.20.1
+	   |-- polymer-common 0.5.20+1.20.1
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   |-- polymer-core 0.5.20+1.20.1
+	   |    |-- polymer-networking 0.5.20+1.20.1
+	   |    |    \-- polymer-common 0.5.20+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.20+1.20.1
+	   |-- polymer-resource-pack 0.5.20+1.20.1
+	   |    \-- polymer-common 0.5.20+1.20.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   \-- polymer-virtual-entity 0.5.20+1.20.1
+	        \-- polymer-common 0.5.20+1.20.1
+	             \-- packet_tweaker 0.4.0+1.19.4
 	- puffish_attributes 0.7.2
 	   \-- mixinextras 0.4.1
-	- pyrofrost 1.0.1
+	- puffish_skills 0.15.1
 	- ranged_weapon_api 1.1.4+1.20.1
 	- rogues 1.2.0+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
 	- runes 0.9.13+1.20.1
 	- shield_api 1.0.1+1.20.1
+	- skin_changer 0.6.6
 	- skinlayers3d 1.7.4
-	- skinrestorer 2.2.1+1.20-fabric
-	   \-- org_mineskin_java-client 3.0.1-SNAPSHOT
 	- sleepwarp 2.2.0_rc1+1.20.1
 	- sound_physics_remastered 1.20.1-1.4.8
 	- spell_engine 0.15.12+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
 	- spell_power 0.12.0+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
-	- starlight 1.1.2+fabric.dbc156f
 	- structure_pool_api 1.0+1.20.1
 	- structureessentials 1.20.1-4.3
 	- t_and_t 1.12
 	- terralith 2.5.4
 	- travelersbackpack 9.1.28
 	   \-- reach-entity-attributes 2.4.0
-	- treechop 0.19.0
 	- trinkets 3.7.2
-	- variantsandventures 1.0.6
+	- universal-graves 3.0.3+1.20.1
+	   |-- common-protection-api 1.0.0
+	   |-- placeholder-api 2.1.3+1.20.1
+	   |-- predicate-api 0.2.1+1.20.1
+	   |-- server_translations_api 2.0.0+1.20
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   \-- sgui 1.2.2+1.20
 	- vinery 1.4.38
 	- waystones 14.1.10
+	- wildfire_gender 1.20-3.0.1
 	- wizards 1.4.1+1.20.1
 	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- xaerominimap 25.1.0
+	- xaeroworldmap 1.39.4
 	- yet_another_config_lib_v3 3.6.3+1.20.1-fabric
 	   \-- mixinextras 0.4.1
 	- yungsapi 1.20-Fabric-4.0.6
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
-[00:25:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/N9vo-/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:25:32] [main/INFO]: Compatibility level set to JAVA_17
-[00:25:32] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:25:32] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:25:32] [main/INFO]: Preloading Debugify
-[00:25:32] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:25:32] [main/WARN]: Reference map 'gazebo-refmap.json' for gazebo.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:25:32] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:25:32] [main/INFO]: Started MM (shedaniel's fork) at me/shedaniel/gen/mixin/
-[00:25:32] [main/WARN]: Reference map 'Manningham Mills-refmap.json' for mixins.mm_shedaniel.json could not be read. If this is a development environment you can ignore this message
-[00:25:32] [main/INFO]: Loaded configuration file for ModernFix 5.18.1+mc1.20.1: 60 options available, 0 override(s) found
-[00:25:32] [main/INFO]: Applying Nashorn fix
-[00:25:32] [main/WARN]: Reference map 'nitrogen_internals-refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:25:33] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[00:25:33] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[00:25:33] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[00:25:33] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[00:25:33] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[00:25:33] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[00:25:33] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[00:25:33] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[00:25:33] [main/WARN]: Error loading class: net/minecraft/class_5684 (java.lang.ClassNotFoundException: net/minecraft/class_5684)
-[00:25:33] [main/WARN]: @Mixin target net.minecraft.class_5684 was not found dehydration.mixins.json:TooltipComponentMixin from mod dehydration
-[00:25:33] [main/WARN]: Error loading class: net/minecraft/class_481 (java.lang.ClassNotFoundException: net/minecraft/class_481)
-[00:25:33] [main/WARN]: @Mixin target net.minecraft.class_481 was not found porting_lib_items.mixins.json:client.CreativeModeInventoryScreenMixin from mod porting_lib_items
-[00:25:33] [main/INFO]: Loaded config for: structureessentials.json
-[00:25:33] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[00:25:33] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[00:25:34] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[00:25:34] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm_shedaniel.json:net.minecraft.class_314 from mod mm_shedaniel
-[00:25:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:25:34] [main/WARN]: Method overwrite conflict for method_43250 in lazydfu.mixins.json:SharedConstantsMixin from mod lazydfu, previously written by net.dnlayu.fastboot.mixin.SharedConstantsMixin. Skipping method.
-[00:25:35] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
-[00:25:35] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md16a12f$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
-[00:25:35] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md16a12f$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
-[00:25:36] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:25:37] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[00:25:37] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[00:25:38] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
-[00:25:38] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfm000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:25:39] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[00:25:40] [main/INFO]: Vanilla bootstrap took 5143 milliseconds
-[00:25:40] [main/INFO]: Registering Listeners!
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[00:25:41] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[00:25:41] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
-[00:25:41] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
-[00:25:41] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
-[00:25:41] [main/INFO]: Reflections took 47 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:41] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:41] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[00:25:41] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[00:25:41] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
-[00:25:41] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
-[00:25:41] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
-[00:25:41] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
-[00:25:41] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
-[00:25:41] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[00:25:42] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[00:25:42] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[00:25:42] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:42] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:42] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[00:25:42] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[00:25:42] [main/INFO]: Common init
-[00:25:43] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
-[00:25:43] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
-[00:25:43] [main/INFO]: fabric loader environment detected
-[00:25:43] [main/INFO]: Loaded config for: cupboard.json
-[00:25:43] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[00:25:43] [main/INFO]: Successfully Debugify'd your game!
-[00:25:43] [main/INFO]: Loaded config dummmmmmy-common.json
-[00:25:44] [main/INFO]: Loaded config :emi_loot_config in 897ms
-[00:25:44] [main/INFO]: ExpandAbility here, who dis?
-[00:25:44] [main/INFO]: Hello Fabric world!
-[00:25:44] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
-[00:25:44] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
-[00:25:44] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
-[00:25:44] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
-[00:25:44] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[00:25:44] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[00:25:44] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[00:25:44] [main/INFO]: You shall not Json my recipes !
-[00:25:44] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
-[00:25:44] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
-[00:25:44] [main/INFO]: Loaded maxhealthfix for Fabric.
-[00:25:45] [main/INFO]: Definitely not up to no good
-[00:25:45] [main/INFO]: Definitely not up to no good
-[00:25:45] [main/INFO]: KONNICHIWA ZA WARUDO!
-[00:25:45] [main/INFO]: Default JVM text encoding is: UTF-8
-[00:25:45] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
-[00:25:45] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
-[00:25:45] [main/INFO]: Loaded Compatibility Module for Dehydration
-[00:25:45] [main/INFO]: A strange new sensation sweeps across the blocky hills of Minecraft...
-[00:25:45] [main/INFO]: Initializing Scribe...
-[00:25:45] [main/INFO]: Shield API initialized!
-[00:25:45] [main/INFO]: structureessentials mod initialized
-[00:25:45] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[00:25:45] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[00:25:45] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[00:25:45] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[00:25:46] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[00:25:46] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[00:25:46] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:46] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[00:25:46] [main/INFO]: Initialized block sets in 19ms
-[00:25:46] [main/INFO]: Loaded config fastpaintings-common.json
-[00:25:46] [main/INFO]: Loaded config moonlight-common.json
-[00:25:46] [main/INFO]: Initialized color sets in 45ms
-[00:25:46] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:25:46] [main/INFO]: Bypassed Mojang DFU
-[00:25:46] [main/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
-[00:25:46] [main/INFO]: [bclib] Running Pre Patchers on ./world/.
-[00:25:46] [main/WARN]: [bclib] Applying Fixes on Level
-[00:25:46] [main/INFO]: [bclib] Patcher Stage... Reading Data%
-[00:25:46] [main/INFO]: [bclib] Patcher Stage... Fixing Players%
-[00:25:46] [main/INFO]: [bclib] Patcher Stage... Applying Patches to level.dat%
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting level.dat in ./world/.
-[00:25:46] [main/INFO]: [bclib] Patcher Stage... Patching Custom World-Data%
-[00:25:46] [main/INFO]: [bclib] Patcher Stage... Repairing all Regions%
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
-[00:25:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
-[00:25:46] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
-[00:25:46] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
-[00:25:46] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
-[00:25:47] [main/INFO]: [bclib] Patcher Stage... Saving Patch State%
-[00:25:47] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:jade_cave
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:megalake_grove
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:neon_oasis
-[00:25:47] [main/INFO]: [bclib] Did not manage biome betterend:painted_mountains
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (773c17b7)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:25:48] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:25:48] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (1ee743a2)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (3a1c162e)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:25:48] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:25:48] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (6cd5ff83)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (5dbc7a73)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:25:48] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:25:48] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (212edefd)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (17e5139e)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:48] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:25:48] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:25:48] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:25:48] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (24959121)
-[00:25:48] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:49] [main/WARN]: [bclib] No valid BCLBiome Registry available!
-[00:25:49] [main/WARN]: [bclib] No valid Biome Registry available!
-[00:25:49] [main/WARN]: Adding spell_power:fire to saved/remote registry.
-[00:25:49] [main/WARN]: Adding spell_power:frost to saved/remote registry.
-[00:25:49] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
-[00:25:49] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[00:25:49] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (52aa7c4)
-[00:25:49] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:49] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (9f4952f)
-[00:25:49] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:25:49] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:25:49] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:25:49] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:25:49] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
-[00:25:49] [main/INFO]: Adding serverside commands..
-[00:25:51] [main/INFO]: parsing loot tables
-[00:25:51] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@5665b26f for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
-[00:25:51] [main/ERROR]: Thrown Error:
+[16:22:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/N9vo-/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:22:13] [main/INFO]: Compatibility level set to JAVA_17
+[16:22:13] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:22:13] [main/WARN]: Reference map 'gazebo-refmap.json' for gazebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:22:13] [main/WARN]: Reference map '${mod_id}.refmap.json' for medievalorigins.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:22:13] [main/INFO]: Started MM (shedaniel's fork) at me/shedaniel/gen/mixin/
+[16:22:13] [main/WARN]: Reference map 'Manningham Mills-refmap.json' for mixins.mm_shedaniel.json could not be read. If this is a development environment you can ignore this message
+[16:22:13] [main/WARN]: Reference map 'nitrogen_internals-refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:22:13] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[16:22:13] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[16:22:13] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[16:22:13] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[16:22:13] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[16:22:13] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[16:22:13] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[16:22:13] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[16:22:14] [main/WARN]: Error loading class: net/minecraft/class_5684 (java.lang.ClassNotFoundException: net/minecraft/class_5684)
+[16:22:14] [main/WARN]: @Mixin target net.minecraft.class_5684 was not found dehydration.mixins.json:TooltipComponentMixin from mod dehydration
+[16:22:14] [main/WARN]: Error loading class: net/minecraft/class_979 (java.lang.ClassNotFoundException: net/minecraft/class_979)
+[16:22:14] [main/WARN]: Error loading class: net/minecraft/class_481 (java.lang.ClassNotFoundException: net/minecraft/class_481)
+[16:22:14] [main/WARN]: @Mixin target net.minecraft.class_481 was not found porting_lib_items.mixins.json:client.CreativeModeInventoryScreenMixin from mod porting_lib_items
+[16:22:14] [main/INFO]: Loaded config for: structureessentials.json
+[16:22:14] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[16:22:14] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[16:22:14] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm_shedaniel.json:net.minecraft.class_314 from mod mm_shedaniel
+[16:22:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:22:17] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[16:22:19] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfm000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[16:22:20] [main/WARN]: Method overwrite conflict for method_7844 in ranged_weapon_api.mixins.json:item.RangedWeaponItemMixin from mod ranged_weapon_api, previously written by net.projectile_damage.mixin.RangedWeaponItemMixin. Skipping method.
+[16:22:23] [main/INFO]: Registering Listeners!
+[16:22:24] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
+[16:22:24] [main/INFO]: Apugli 2.10.2 has initialized. Powering up your powered up game.
+[16:22:24] [main/ERROR]: No data fixer registered for apugli:custom_area_effect_cloud
+[16:22:24] [main/ERROR]: No data fixer registered for apugli:custom_projectile
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[16:22:25] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[16:22:25] [main/ERROR]: No data fixer registered for artifacts:mimic
+[16:22:25] [main/INFO]: Running compat handler for Origins
+[16:22:25] [main/INFO]: Registered azurelib config for auto-sync function
+[16:22:25] [main/ERROR]: No data fixer registered for bakery:wandering_baker
+[16:22:26] [main/INFO]: Reflections took 48 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:26] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:26] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[16:22:26] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:22:26] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[16:22:26] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:26] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:26] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[16:22:26] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[16:22:26] [main/ERROR]: No data fixer registered for brewery:rope_knot
+[16:22:26] [main/ERROR]: No data fixer registered for brewery:beer_elemental
+[16:22:26] [main/ERROR]: No data fixer registered for brewery:beer_elemental_attack
+[16:22:26] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
+[16:22:26] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
+[16:22:26] [main/INFO]: Connectivity initialized
+[16:22:26] [main/INFO]: Loaded config for: cupboard.json
+[16:22:26] [main/ERROR]: No data fixer registered for doapi:chair
+[16:22:29] [main/INFO]: Loaded config dummmmmmy-common.json
+[16:22:30] [main/INFO]: Loaded config :emi_loot_config in 726ms
+[16:22:30] [main/INFO]: ExpandAbility here, who dis?
+[16:22:30] [main/INFO]: Hello Fabric world!
+[16:22:30] [main/ERROR]: No data fixer registered for farm_and_charm:rotten_tomato
+[16:22:30] [main/ERROR]: No data fixer registered for farm_and_charm:chest_cart
+[16:22:30] [main/ERROR]: No data fixer registered for farm_and_charm:plow
+[16:22:30] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
+[16:22:30] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
+[16:22:30] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
+[16:22:30] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
+[16:22:30] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[16:22:30] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[16:22:30] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[16:22:30] [main/INFO]: You shall not Json my recipes !
+[16:22:30] [main/ERROR]: No data fixer registered for lilis_lucky_lures:dynamite
+[16:22:30] [main/ERROR]: No data fixer registered for lilis_lucky_lures:thrown_spear
+[16:22:30] [main/ERROR]: No data fixer registered for lilis_lucky_lures:floating_debris
+[16:22:30] [main/ERROR]: No data fixer registered for lilis_lucky_lures:floating_books
+[16:22:30] [main/ERROR]: No data fixer registered for lilis_lucky_lures:river_fish_pool
+[16:22:30] [main/ERROR]: No data fixer registered for lilis_lucky_lures:ocean_fish_pool
+[16:22:30] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[16:22:30] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[16:22:30] [main/INFO]: Loaded maxhealthfix for Fabric.
+[16:22:30] [main/ERROR]: No data fixer registered for meadow:water_buffalo
+[16:22:30] [main/ERROR]: No data fixer registered for meadow:wooly_cow
+[16:22:30] [main/ERROR]: No data fixer registered for meadow:chair
+[16:22:30] [main/ERROR]: No data fixer registered for meadow:meadow_sheep
+[16:22:30] [main/INFO]: Loading Medieval Origins
+[16:22:30] [main/INFO]: Registering Sounds for medievalorigins
+[16:22:30] [main/INFO]: Definitely not up to no good
+[16:22:30] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
+[16:22:31] [main/INFO]: Shield API initialized!
+[16:22:31] [main/INFO]: structureessentials mod initialized
+[16:22:31] [main/ERROR]: No data fixer registered for 
+[16:22:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[16:22:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[16:22:31] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[16:22:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[16:22:32] [main/ERROR]: No data fixer registered for vinery:mule
+[16:22:32] [main/ERROR]: No data fixer registered for vinery:wandering_winemaker
+[16:22:32] [main/ERROR]: No data fixer registered for vinery:chair
+[16:22:32] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[16:22:32] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[16:22:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:32] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[16:22:32] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[16:22:32] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[16:22:32] [main/INFO]: Initialized block sets in 13ms
+[16:22:32] [main/ERROR]: No data fixer registered for target_dummy
+[16:22:32] [main/INFO]: Loaded config moonlight-common.json
+[16:22:33] [main/INFO]: Initialized color sets in 39ms
+[16:22:33] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16:22:33] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[16:22:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:22:35] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[16:22:35] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[16:22:35] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[16:22:35] [main/WARN]: hexcasting:enlarge_grid missing from registry, but requested!
+[16:22:35] [main/WARN]: hexcasting:shrink_grid missing from registry, but requested!
+[16:22:35] [main/WARN]: origins-classes:stealth missing from registry, but requested!
+[16:22:35] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:22:35] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
+[16:22:37] [main/INFO]: parsing loot tables
+[16:22:37] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@49d068b0 for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
+[16:22:37] [main/ERROR]: Thrown Error:
 java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.SetAttributesLootFunctionAccessor failed
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]
@@ -490,7 +433,7 @@ java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.S
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.lambda$parseLootTables$5(LootTableParser.java:151) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
 	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar:?]
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootTables(LootTableParser.java:149) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
-	at net.minecraft.class_4014.md16a12f$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.mdc6d0ec$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
@@ -511,8 +454,8 @@ Caused by: org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadEr
 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]
 	... 33 more
-[00:25:51] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@5665b26f for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
-[00:25:51] [main/ERROR]: Thrown Error:
+[16:22:37] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@49d068b0 for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
+[16:22:37] [main/ERROR]: Thrown Error:
 java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.SetAttributesLootFunctionAccessor failed
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]
@@ -533,7 +476,7 @@ java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.S
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.lambda$parseLootTables$5(LootTableParser.java:151) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
 	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar:?]
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootTables(LootTableParser.java:149) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
-	at net.minecraft.class_4014.md16a12f$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.mdc6d0ec$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
@@ -554,33 +497,9 @@ Caused by: org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadEr
 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]
 	... 33 more
-[00:25:51] [main/INFO]: finished parsing loot tables
-[00:25:51] [main/INFO]: [bclib] Disabling Recipe: bclib:test_star
-[00:25:51] [main/INFO]: Added 0 compatibility recipes !
-[00:25:51] [main/ERROR]: Parsing error loading recipe betterend:guide_book
-com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
-	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:25:51] [main/ERROR]: Parsing error loading recipe conditional:pot_cooking/cooked_cod_meal
+[16:22:37] [main/INFO]: finished parsing loot tables
+[16:22:37] [main/INFO]: Added 0 compatibility recipes !
+[16:22:37] [main/ERROR]: Parsing error loading recipe conditional:pot_cooking/cooked_cod_meal
 com.google.gson.JsonSyntaxException: Expected item to be a string, was an object ({"it...l"})
 	at net.minecraft.class_3518.method_15287(class_3518.java:119) ~[server-intermediary.jar:?]
 	at net.minecraft.class_3518.method_15265(class_3518.java:125) ~[server-intermediary.jar:?]
@@ -607,154 +526,134 @@ com.google.gson.JsonSyntaxException: Expected item to be a string, was an object
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:25:51] [main/INFO]: Loaded 44 recipes
-[00:25:51] [main/INFO]: Loaded 3213 advancements
-[00:25:51] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
-[00:25:52] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
-[00:25:52] [main/WARN]: beachparty:coconut_open is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:honey_cocktail is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:sweetberry_milkshake is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:coconut_milkshake is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:chocolate_milkshake is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:sweetberry_icecream is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:coconut_icecream is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:chocolate_icecream is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:icecream_coconut is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:icecream_cactus is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:icecream_chocolate is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:icecream_sweetberries is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:icecream_melon is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:coconut_cocktail is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:sweetberries_cocktail is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:cocoa_cocktail is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:pumpkin_cocktail is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:melon_cocktail is not a valid item identifier
-[00:25:52] [main/WARN]: beachparty:refreshing_drink is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:whiskey is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:whiskey_ak is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:whiskey_highland_hearth is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:whiskey_smokey_reverie is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:whiskey_jamesons_malt is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:beer_nettle is not a valid item identifier
-[00:25:52] [main/WARN]: brewery:beer_oat is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:beetroot_salad is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:salad is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:mozzarella is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:fresh_garden_salad is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:tomato_mozzarella_salad is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:tomato_soup is not a valid item identifier
-[00:25:52] [main/WARN]: candlelight:mushroom_soup is not a valid item identifier
-[00:25:52] [main/WARN]: cornexpansion:corn_syrup is not a valid item identifier
-[00:25:52] [main/WARN]: herbalbrews:armor_flask is not a valid item identifier
-[00:25:52] [main/WARN]: herbalbrews:armor_flask_big is not a valid item identifier
-[00:25:52] [main/WARN]: herbalbrews:damage_flask is not a valid item identifier
-[00:25:52] [main/WARN]: herbalbrews:damage_flask_big is not a valid item identifier
-[00:25:52] [main/WARN]: herbalbrews:feral_flask is not a valid item identifier
-[00:25:52] [main/WARN]: herbalbrews:feral_flask_big is not a valid item identifier
-[00:25:52] [main/INFO]: Loading exposure lenses:
-[00:25:52] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
-[00:25:52] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
-[00:25:52] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///workspaces/N9vo-/servidor_minecraft/mods/%5BDungeons%20and%20Taverns%5D%20dungeons-and-taverns-3.0.3.f%5BFabric%5D.jar
-[00:25:52] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///workspaces/N9vo-/servidor_minecraft/mods/%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar
-[00:25:52] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (52aa7c4)
-[00:25:52] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (9f4952f)
-[00:25:52] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
-[00:25:52] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
-[00:25:52] [main/INFO]: Applied 1484 biome modifications to 192 of 192 new biomes in 82.52 ms
-[00:25:52] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
-[00:25:52] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
-[00:25:52] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
-[00:25:52] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
-[00:25:52] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
-[00:25:52] [Server thread/INFO]: Attempting to load Temperature Data...
-[00:25:52] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 132384 bytes (in 14 string chunks with the size of 10000)
-[00:25:52] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
-[00:25:52] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:25:52] [Server thread/INFO]: Loading properties
-[00:25:52] [Server thread/INFO]: Default game type: SURVIVAL
-[00:25:52] [Server thread/INFO]: Generating keypair
-[00:25:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:25:52] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
-[00:25:52] [Server thread/INFO]: Using epoll channel type
-[00:25:53] [Server thread/INFO]: Using epoll channel type
-[00:25:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:25:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:25:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:25:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:25:53] [Server thread/INFO]: Preparing level "world"
-[00:25:53] [Server thread/INFO]: [bclib] 
-Apply Modifications for aether:the_aether
-    class_4766 (19295e5a)
-        biomes     = 4
-        namespaces = aether(4)
-[00:25:53] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecraft:the_nether
-    BCLib - Nether BiomeSource (52aa7c4)
-        biomes     = 5
-        namespaces = minecraft(5)
-        seed       = 4510761820965068488
-        height     = 128
-        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[00:25:53] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecraft:the_end
-    BCLib - The End  BiomeSource (9f4952f)
-        biomes     = 24
-        namespaces = betterend(19), minecraft(5)
-        seed       = 4510761820965068488
-        height     = 128
-        deciders   = 0
-        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[00:25:53] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecraft:overworld
-    class_4766 (570ac920)
-        biomes     = 147
-        namespaces = minecraft(53), terralith(94)
-[00:25:53] [Server thread/INFO]: [bclib] World Dimensions: 
- - aether:the_aether: 
-     net.minecraft.class_3754@16469635 
-     class_4766 (19295e5a)
-         biomes     = 4
-         namespaces = aether(4)
- - minecraft:the_nether: 
-     BCLib - Chunk Generator (68b9c3c0) 
-     BCLib - Nether BiomeSource (52aa7c4)
-         biomes     = 5
-         namespaces = minecraft(5)
-         seed       = 4510761820965068488
-         height     = 128
-         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
- - minecraft:the_end: 
-     BCLib - Chunk Generator (b325cf1) 
-     BCLib - The End  BiomeSource (9f4952f)
-         biomes     = 24
-         namespaces = betterend(19), minecraft(5)
-         seed       = 4510761820965068488
-         height     = 128
-         deciders   = 0
-         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
- - minecraft:overworld: 
-     net.minecraft.class_3754@1bccc5b1 
-     class_4766 (570ac920)
-         biomes     = 147
-         namespaces = minecraft(53), terralith(94)
-[00:25:53] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
-BCLib - The End  BiomeSource (9f4952f)
-    biomes     = 24
-    namespaces = betterend(19), minecraft(5)
-    seed       = 4510761820965068488
-    height     = 128
-    deciders   = 0
-    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
-[00:25:53] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
-[00:25:53] [e4mc_minecraft-init/INFO]: using relay na
-[00:25:54] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x6cd96601, QuicStreamAddress{streamId=0}]
-[00:25:54] [nioEventLoopGroup-2-1/INFO]: control channel write complete
-[00:25:54] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
-[00:25:54] [nioEventLoopGroup-2-1/INFO]: Domain assigned: vehicle-vivid.na.e4mc.link
-[00:25:57] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[00:25:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:25:57] [Server thread/INFO]: Time elapsed: 151 ms
-[00:25:57] [Server thread/INFO]: Done (4.735s)! For help, type "help"
-[00:25:57] [Server thread/WARN]: Dedicated server took 33.376 seconds to load
-[00:25:57] [Server thread/INFO]: Loaded config for: lootintegrations.json
-[00:25:57] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[16:22:37] [main/INFO]: Loaded 41 recipes
+[16:22:37] [main/INFO]: Loaded 2295 advancements
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:wood_elf/empowered_shot_zenith_velocity_attribute" in power file "medievalorigins:wood_elf/empowered_shot_zenith": Error reading data field at attribute: Identifier "zenith_attributes:arrow_velocity" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading power file medievalorigins:wood_elf/empowered_shot_zenith (skipping): Cannot invoke "io.github.apace100.apoli.power.PowerType.create(net.minecraft.class_1309)" because "powerType" is null
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:high_elf/mana_rpgmana_max_mana" in power file "medievalorigins:high_elf/mana_rpgmana": Error reading data field at modifiers.[0].attribute: Identifier "rpgmana:mana" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:high_elf/mana_rpgmana_highborne_regen" in power file "medievalorigins:high_elf/mana_rpgmana": Error reading data field at modifiers.[0].attribute: Identifier "rpgmana:manaregen" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading power file medievalorigins:high_elf/mana_rpgmana (skipping): Cannot invoke "io.github.apace100.apoli.power.PowerType.create(net.minecraft.class_1309)" because "powerType" is null
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_weapon_boosts" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.bonus_loot_count_rolls" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_weapon_boosts_offhand" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.bonus_loot_count_rolls" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_tool_boosts" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.dig_speed" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading power file medievalorigins:valkyrie/wings (skipping): Power type "medievalorigins:icarus_wings" is not defined.
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:moon_elf/nimble_extra_roll" in power file "medievalorigins:moon_elf/nimble": Error reading data field at modifier.attribute: Identifier "combatroll:count" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:alfiq/pickpocket_active" in power file "medievalorigins:alfiq/pickpocket": Error reading data field at bientity_action.actions.[0]: BiEntityAction json type "origins:modify_resource" is not defined.
+[16:22:37] [main/ERROR]: There was a problem reading sub-power "medievalorigins:valkyrie/vanquisher_spell_power_forge" in power file "medievalorigins:valkyrie/vanquisher": Error reading data field at attribute: Identifier "irons_spellbooks:holy_spell_power" was not registered in registry "minecraft:attribute".
+[16:22:37] [main/INFO]: Finished loading powers from data files. Registry contains 553 powers.
+[16:22:37] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_rpgmana"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_irons"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_irons_ars"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_ars"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:plague_victim" contained unregistered power: "origins_survive:illness_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:valkyrie" contained unregistered power: "medievalorigins:valkyrie/wings"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:revenant" contained unregistered power: "origins_survive:sleepless"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:banshee" contained unregistered power: "origins_survive:sleepless"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:gorgon" contained unregistered power: "origins_env_deh:thirst_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/empowered_shot_zenith"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/empowered_shot_apotheosis"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/spell_power"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:moon_elf" contained unregistered power: "origins_survive:sleepless"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "medievalorigins:yeti/spell_power"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_env_deh:cold_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "thermoo-patches:cold_immune"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_survive:cold_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_toughasnails:cold_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "mermod:fabulous_fins"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "origins_env_deh:water_dweller"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "origins_env_deh:cold_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "thermoo-patches:cold_immune"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "survive:cold_blooded"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_env_deh:heat_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "thermoo-patches:heat_immune"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "thermoo-patches:cold_vulnerability"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_survive:lava_drinker"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_survive:heat_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_toughasnails:lava_drinker"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_toughasnails:thermal_regulator"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:ogre" contained unregistered power: "origins_survive:illness_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "medievalorigins:troll/spell_power"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_env_deh:cold_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "thermoo-patches:cold_immune"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_survive:cold_resistance"
+[16:22:37] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_toughasnails:cold_resistance"
+[16:22:37] [main/INFO]: Finished loading origins from data files. Registry contains 34 origins.
+[16:22:37] [main/INFO]: Trying to read layer file: medievalorigins:magic_subclasses
+[16:22:37] [main/INFO]: Trying to read layer file: origins:origin
+[16:22:37] [main/INFO]: Trying to read layer file: origins:origin
+[16:22:37] [main/INFO]: Trying to read layer file: origins:origin
+[16:22:37] [main/INFO]: Finished loading origin layers from data files. Read 2 layers.
+[16:22:37] [main/WARN]: beachparty:coconut_open is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:honey_cocktail is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:sweetberry_milkshake is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:coconut_milkshake is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:chocolate_milkshake is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:sweetberry_icecream is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:coconut_icecream is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:chocolate_icecream is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:icecream_coconut is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:icecream_cactus is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:icecream_chocolate is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:icecream_sweetberries is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:icecream_melon is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:coconut_cocktail is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:sweetberries_cocktail is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:cocoa_cocktail is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:pumpkin_cocktail is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:melon_cocktail is not a valid item identifier
+[16:22:37] [main/WARN]: beachparty:refreshing_drink is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:whiskey is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:whiskey_ak is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:whiskey_highland_hearth is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:whiskey_smokey_reverie is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:whiskey_jamesons_malt is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:beer_nettle is not a valid item identifier
+[16:22:37] [main/WARN]: brewery:beer_oat is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:beetroot_salad is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:salad is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:mozzarella is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:fresh_garden_salad is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:tomato_mozzarella_salad is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:tomato_soup is not a valid item identifier
+[16:22:37] [main/WARN]: candlelight:mushroom_soup is not a valid item identifier
+[16:22:37] [main/WARN]: cornexpansion:corn_syrup is not a valid item identifier
+[16:22:37] [main/WARN]: herbalbrews:armor_flask is not a valid item identifier
+[16:22:37] [main/WARN]: herbalbrews:armor_flask_big is not a valid item identifier
+[16:22:37] [main/WARN]: herbalbrews:damage_flask is not a valid item identifier
+[16:22:37] [main/WARN]: herbalbrews:damage_flask_big is not a valid item identifier
+[16:22:37] [main/WARN]: herbalbrews:feral_flask is not a valid item identifier
+[16:22:37] [main/WARN]: herbalbrews:feral_flask_big is not a valid item identifier
+[16:22:37] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
+[16:22:37] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[16:22:37] [main/INFO]: Loaded 0 global power sets.
+[16:22:40] [main/INFO]: Applied 1347 biome modifications to 167 of 167 new biomes in 44.50 ms
+[16:22:40] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[16:22:40] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[16:22:40] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 133260 bytes (in 14 string chunks with the size of 10000)
+[16:22:40] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
+[16:22:40] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:22:40] [Server thread/INFO]: Loading properties
+[16:22:40] [Server thread/INFO]: Default game type: SURVIVAL
+[16:22:40] [Server thread/INFO]: Generating keypair
+[16:22:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:22:41] [Server thread/INFO]: Using epoll channel type
+[16:22:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:22:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:22:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:22:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:22:41] [Server thread/INFO]: Preparing level "world"
+[16:22:48] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[16:22:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:22:48] [Server thread/INFO]: Time elapsed: 336 ms
+[16:22:48] [Server thread/INFO]: Done (7.656s)! For help, type "help"
+[16:22:48] [Server thread/INFO]: Loaded config for: connectivity.json
+[16:22:48] [Server thread/INFO]: Loaded config for: lootintegrations.json
+[16:22:49] [Server thread/INFO]: Start loading plugin from Balm
+[16:22:49] [Server thread/INFO]: Start loading plugin from Jade
+[16:22:49] [Server thread/INFO]: Start loading plugin from Jade
+[16:22:49] [Server thread/INFO]: Start loading plugin from Jade
+[16:22:49] [Server thread/INFO]: Start loading plugin from Polymer (Core)
+[16:22:49] [Server thread/INFO]: Start loading plugin from Waystones
+[16:22:49] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16:22:49] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[16:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind

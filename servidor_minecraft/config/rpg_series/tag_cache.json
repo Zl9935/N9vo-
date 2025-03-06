@@ -1,19 +1,6 @@
 {
   "cache": {
-    "rpg_series:tier_4_weapons": [
-      "archers:aeternium_spear",
-      "archers:crystal_shortbow",
-      "archers:crystal_longbow",
-      "paladins:aeternium_great_hammer",
-      "paladins:aeternium_claymore",
-      "paladins:aeternium_mace",
-      "rogues:aeternium_dagger",
-      "rogues:aeternium_sickle",
-      "rogues:aeternium_double_axe",
-      "rogues:aeternium_glaive",
-      "wizards:staff_crystal_arcane",
-      "wizards:staff_smaragdant_frost"
-    ],
+    "rpg_series:tier_4_weapons": [],
     "rpg_series:tier_1_armors": [
       "archers:archer_armor_chest",
       "archers:archer_armor_feet",
@@ -225,8 +212,7 @@
       "jewelry:unique_frost_ring",
       "jewelry:unique_frost_necklace",
       "jewelry:unique_healing_ring",
-      "jewelry:unique_healing_necklace",
-      "paladins:aeternium_kite_shield"
+      "jewelry:unique_healing_necklace"
     ],
     "rpg_series:tier_0_weapons": [
       "minecraft:bow",
