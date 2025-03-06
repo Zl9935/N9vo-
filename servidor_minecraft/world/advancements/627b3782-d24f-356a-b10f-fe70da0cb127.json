@@ -1723,27 +1723,27 @@
     },
     "done": true
   },
-  "vinery:recipes/stackable_log": {
-    "criteria": {
-      "has_oak_log": "2025-03-06 19:46:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2025-03-06 19:42:43 +0000"
     },
     "done": true
   },
-  "vinery:recipes/grapevine_stem": {
+  "brewery:recipes/wooden_brewingstation": {
+    "criteria": {
+      "has_furnace": "2025-03-06 19:42:43 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/stackable_log": {
     "criteria": {
       "has_oak_log": "2025-03-06 19:46:07 +0000"
     },
     "done": true
   },
-  "brewery:recipes/wooden_brewingstation": {
+  "vinery:recipes/grapevine_stem": {
     "criteria": {
-      "has_furnace": "2025-03-06 19:42:43 +0000"
+      "has_oak_log": "2025-03-06 19:46:07 +0000"
     },
     "done": true
   },

@@ -658,3 +658,52 @@ com.google.gson.JsonSyntaxException: Expected item to be a string, was an object
 [20:04:24] [Server thread/INFO]: Start loading plugin from Waystones
 [20:04:24] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
 [20:04:24] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[20:14:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@5b1c73e2[id=<null>,name=LuxSilver,properties={},legacy=false] (/127.14.84.239:38205) lost connection: Disconnected
+[20:14:25] [Server thread/INFO]: LuxSilver[/127.14.84.239:53505] logged in with entity id 1 at (28.801999986171722, 67.0, 161.80199998617172)
+[20:14:25] [Server thread/INFO]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[20:14:25] [Server thread/INFO]: Loading config from file...
+[20:14:25] [Server thread/INFO]: LuxSilver joined the game
+[20:14:26] [Server thread/INFO]: Player LuxSilver just logged in with id 627b3782-d24f-356a-b10f-fe70da0cb127
+[20:14:26] [ForkJoinPool-3-worker-1/INFO]: Loading local skin for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
+[20:14:26] [ForkJoinPool-3-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/LuxSilver downloaded
+[20:14:41] [Server thread/ERROR]: POI data mismatch: already registered at class_2338{x=23, y=-21, z=378}
+[20:14:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[20:14:44] [Netty Epoll Server IO #3/INFO]: [STDOUT]: SAVE DIR: ./config
+[20:14:44] [Netty Epoll Server IO #3/INFO]: [STDOUT]: SAVE DIR: ./config/WildfireGender
+[20:15:01] [Server thread/INFO]: LuxSilver was slain by Zombie
+[20:17:21] [ForkJoinPool.commonPool-worker-136/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
+java.lang.Exception: null
+	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
+	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20:17:21] [ForkJoinPool.commonPool-worker-84/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
+java.lang.Exception: null
+	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
+	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
