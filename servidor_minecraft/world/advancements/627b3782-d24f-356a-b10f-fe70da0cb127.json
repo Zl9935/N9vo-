@@ -1392,5 +1392,23 @@
     },
     "done": true
   },
+  "immersive_armors:recipes/misc/wooden": {
+    "criteria": {
+      "has_item": "2025-03-06 16:41:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-03-06 16:43:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "beetroot": "2025-03-06 16:43:28 +0000"
+    },
+    "done": false
+  },
   "DataVersion": 3465
 }
