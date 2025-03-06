@@ -1,4 +1,3 @@
-
 [Gameplay]
 	#Vanilla's beds will explode in the Aether
 	"Beds explode" = false
@@ -20,13 +19,11 @@
 	"Maximum consumable Life Shards" = 10
 	#Determines the cooldown in ticks for the Hammer of Kingbdogz's ability
 	"Cooldown for the Hammer of Kingbdogz projectile" = 50
-
 [Loot]
 	#Allows the Valkyrie Cape to spawn in the Silver Dungeon loot table
 	"Valkyrie Cape in loot" = true
 	#Allows the Golden Feather to spawn in the Silver Dungeon loot table
 	"Golden Feather in loot" = false
-
 ["World Generation"]
 	#Determines whether the Aether should generate Tall Grass blocks on terrain or not
 	"Generate Tall Grass in the Aether" = true
@@ -34,7 +31,6 @@
 	"Generate Holiday Trees always" = false
 	#Determines whether Holiday Trees should be able to generate during the time frame of December and January when exploring new chunks in the Aether, only works if 'Generate Holiday Trees always' is set to false
 	"Generate Holiday Trees seasonally" = true
-
 [Multiplayer]
 	#Makes it so that only whitelisted users or anyone with permission level 4 can use the Sun Altar on a server
 	"Only whitelisted users access Sun Altars" = false
@@ -44,7 +40,6 @@
 	"Configure Sun Altar dimensions" = ["aether:the_aether"]
 	#Makes the Invisibility Cloak more balanced in PVP by disabling equipment invisibility temporarily after attacks
 	"Balance Invisibility Cloak for PVP" = false
-
 [Modpack]
 	#Spawns the player in the Aether dimension; this is best enabled alongside other modpack configuration to avoid issues
 	"Spawns the player in the Aether" = false
@@ -58,4 +53,3 @@
 	"Sets portal return dimension" = "minecraft:overworld"
 	#Removes eternal day so that the Aether has a normal daylight cycle even before defeating the Sun Spirit
 	"Disables eternal day" = false
-
