@@ -1,11 +1,11 @@
-[13:46:58] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[13:46:59] [ForkJoinPool-1-worker-3/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:46:59] [ForkJoinPool-1-worker-4/WARN]: Mod sleepwarp uses the version 2.2.0_rc1+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0_rc1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:46:59] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[14:19:36] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[14:19:36] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:19:36] [ForkJoinPool-1-worker-1/WARN]: Mod sleepwarp uses the version 2.2.0_rc1+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0_rc1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:19:36] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[13:46:59] [ForkJoinPool-1-worker-1/WARN]: The mod "lilis_lucky_lures" contains invalid entries in its mod json:
+[14:19:37] [ForkJoinPool-1-worker-1/WARN]: The mod "lilis_lucky_lures" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 10 column 12
-[13:46:59] [main/WARN]: Warnings were found!
+[14:19:37] [main/WARN]: Warnings were found!
  - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.0.4 conflicts with any version before 2.0.0 of mod '[Let's Do] Bakery' (bakery), which is present with the following versions: 1.1.15!
 	 - While this won't prevent you from starting the game, the developer(s) of mod '[Let's Do] Farm & Charm' (farm_and_charm) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
  - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.0.4 conflicts with any version before 2.0.0 of mod '[Let's Do] Brewery' (brewery), which is present with the following versions: 1.1.9!
@@ -14,7 +14,7 @@
 	 - You should install version 7.0.1 of modmenu for the optimal experience.
  - Mod 'SleepWarp' (sleepwarp) 2.2.0_rc1+1.20.1 recommends version 3.0.1 of yet-another-config-lib, which is missing!
 	 - You should install version 3.0.1 of yet-another-config-lib for the optimal experience.
-[13:46:59] [main/INFO]: Loading 231 mods:
+[14:19:37] [main/INFO]: Loading 231 mods:
 	- accessories 1.0.0-beta.46+1.20.1
 	   |-- io_wispforest_endec 0.1.8
 	   |-- io_wispforest_endec_gson 0.1.5
@@ -278,141 +278,141 @@
 	- yungsapi 1.20-Fabric-4.0.6
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
-[13:47:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/N9vo-/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:47:01] [main/INFO]: Compatibility level set to JAVA_17
-[13:47:01] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:47:01] [main/WARN]: Reference map 'gazebo-refmap.json' for gazebo.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:47:01] [main/WARN]: Reference map '${mod_id}.refmap.json' for medievalorigins.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:47:01] [main/INFO]: Started MM (shedaniel's fork) at me/shedaniel/gen/mixin/
-[13:47:01] [main/WARN]: Reference map 'Manningham Mills-refmap.json' for mixins.mm_shedaniel.json could not be read. If this is a development environment you can ignore this message
-[13:47:01] [main/WARN]: Reference map 'nitrogen_internals-refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:47:02] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[13:47:02] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[13:47:02] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[13:47:02] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[13:47:02] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[13:47:02] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[13:47:02] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[13:47:02] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[13:47:03] [main/WARN]: Error loading class: net/minecraft/class_979 (java.lang.ClassNotFoundException: net/minecraft/class_979)
-[13:47:03] [main/WARN]: Error loading class: net/minecraft/class_481 (java.lang.ClassNotFoundException: net/minecraft/class_481)
-[13:47:03] [main/WARN]: @Mixin target net.minecraft.class_481 was not found porting_lib_items.mixins.json:client.CreativeModeInventoryScreenMixin from mod porting_lib_items
-[13:47:03] [main/INFO]: Loaded config for: structureessentials.json
-[13:47:03] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[13:47:03] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[13:47:03] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm_shedaniel.json:net.minecraft.class_314 from mod mm_shedaniel
-[13:47:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13:47:06] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[13:47:09] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfm000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[13:47:10] [main/WARN]: Method overwrite conflict for method_7844 in ranged_weapon_api.mixins.json:item.RangedWeaponItemMixin from mod ranged_weapon_api, previously written by net.projectile_damage.mixin.RangedWeaponItemMixin. Skipping method.
-[13:47:15] [main/INFO]: Registering Listeners!
-[13:47:15] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
-[13:47:15] [main/INFO]: Apugli 2.10.2 has initialized. Powering up your powered up game.
-[13:47:16] [main/ERROR]: No data fixer registered for apugli:custom_area_effect_cloud
-[13:47:16] [main/ERROR]: No data fixer registered for apugli:custom_projectile
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[13:47:16] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[13:47:16] [main/ERROR]: No data fixer registered for artifacts:mimic
-[13:47:16] [main/INFO]: Running compat handler for Origins
-[13:47:16] [main/INFO]: Registered azurelib config for auto-sync function
-[13:47:17] [main/ERROR]: No data fixer registered for bakery:wandering_baker
-[13:47:17] [main/INFO]: Reflections took 53 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[13:47:17] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[13:47:17] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[13:47:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[13:47:17] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[13:47:17] [main/ERROR]: No data fixer registered for brewery:rope_knot
-[13:47:17] [main/ERROR]: No data fixer registered for brewery:beer_elemental
-[13:47:17] [main/ERROR]: No data fixer registered for brewery:beer_elemental_attack
-[13:47:17] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
-[13:47:17] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
-[13:47:17] [main/INFO]: Connectivity initialized
-[13:47:17] [main/INFO]: Loaded config for: cupboard.json
-[13:47:17] [main/ERROR]: No data fixer registered for doapi:chair
-[13:47:20] [main/INFO]: Loaded config dummmmmmy-common.json
-[13:47:21] [main/INFO]: Loaded config :emi_loot_config in 718ms
-[13:47:21] [main/INFO]: ExpandAbility here, who dis?
-[13:47:21] [main/INFO]: Hello Fabric world!
-[13:47:21] [main/ERROR]: No data fixer registered for farm_and_charm:rotten_tomato
-[13:47:21] [main/ERROR]: No data fixer registered for farm_and_charm:chest_cart
-[13:47:21] [main/ERROR]: No data fixer registered for farm_and_charm:plow
-[13:47:21] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
-[13:47:21] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
-[13:47:21] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
-[13:47:21] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
-[13:47:21] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[13:47:21] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[13:47:21] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[13:47:21] [main/INFO]: You shall not Json my recipes !
-[13:47:21] [main/ERROR]: No data fixer registered for lilis_lucky_lures:dynamite
-[13:47:21] [main/ERROR]: No data fixer registered for lilis_lucky_lures:thrown_spear
-[13:47:21] [main/ERROR]: No data fixer registered for lilis_lucky_lures:floating_debris
-[13:47:21] [main/ERROR]: No data fixer registered for lilis_lucky_lures:floating_books
-[13:47:21] [main/ERROR]: No data fixer registered for lilis_lucky_lures:river_fish_pool
-[13:47:21] [main/ERROR]: No data fixer registered for lilis_lucky_lures:ocean_fish_pool
-[13:47:21] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
-[13:47:21] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
-[13:47:22] [main/INFO]: Loaded maxhealthfix for Fabric.
-[13:47:22] [main/ERROR]: No data fixer registered for meadow:water_buffalo
-[13:47:22] [main/ERROR]: No data fixer registered for meadow:wooly_cow
-[13:47:22] [main/ERROR]: No data fixer registered for meadow:chair
-[13:47:22] [main/ERROR]: No data fixer registered for meadow:meadow_sheep
-[13:47:22] [main/INFO]: Loading Medieval Origins
-[13:47:22] [main/INFO]: Registering Sounds for medievalorigins
-[13:47:22] [main/INFO]: Definitely not up to no good
-[13:47:22] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
-[13:47:23] [main/INFO]: Shield API initialized!
-[13:47:23] [main/INFO]: structureessentials mod initialized
-[13:47:23] [main/ERROR]: No data fixer registered for 
-[13:47:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[13:47:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[13:47:23] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[13:47:23] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[13:47:24] [main/ERROR]: No data fixer registered for vinery:mule
-[13:47:24] [main/ERROR]: No data fixer registered for vinery:wandering_winemaker
-[13:47:24] [main/ERROR]: No data fixer registered for vinery:chair
-[13:47:24] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[13:47:24] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[13:47:24] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:24] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[13:47:24] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
-[13:47:24] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
-[13:47:24] [main/INFO]: Initialized block sets in 13ms
-[13:47:24] [main/ERROR]: No data fixer registered for target_dummy
-[13:47:24] [main/INFO]: Loaded config moonlight-common.json
-[13:47:25] [main/INFO]: Initialized color sets in 36ms
-[13:47:25] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[13:47:25] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[13:47:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:47:27] [main/WARN]: Adding spell_power:fire to saved/remote registry.
-[13:47:27] [main/WARN]: Adding spell_power:frost to saved/remote registry.
-[13:47:27] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
-[13:47:27] [main/WARN]: dehydration:thirst_effect missing from registry, but requested!
-[13:47:27] [main/WARN]: dehydration:hydration_effect missing from registry, but requested!
-[13:47:27] [main/WARN]: hexcasting:enlarge_grid missing from registry, but requested!
-[13:47:27] [main/WARN]: hexcasting:shrink_grid missing from registry, but requested!
-[13:47:27] [main/WARN]: origins-classes:stealth missing from registry, but requested!
-[13:47:27] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[13:47:27] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
-[13:47:29] [main/INFO]: parsing loot tables
-[13:47:29] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@44af7771 for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
-[13:47:29] [main/ERROR]: Thrown Error:
+[14:19:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/N9vo-/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:19:38] [main/INFO]: Compatibility level set to JAVA_17
+[14:19:38] [main/WARN]: Reference map 'emi-letsdo-compat-common-refmap.json' for emi_letsdo_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:19:38] [main/WARN]: Reference map 'gazebo-refmap.json' for gazebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:19:38] [main/WARN]: Reference map '${mod_id}.refmap.json' for medievalorigins.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:19:38] [main/INFO]: Started MM (shedaniel's fork) at me/shedaniel/gen/mixin/
+[14:19:38] [main/WARN]: Reference map 'Manningham Mills-refmap.json' for mixins.mm_shedaniel.json could not be read. If this is a development environment you can ignore this message
+[14:19:38] [main/WARN]: Reference map 'nitrogen_internals-refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:19:38] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[14:19:38] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[14:19:38] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[14:19:38] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[14:19:38] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[14:19:38] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[14:19:38] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[14:19:38] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[14:19:39] [main/WARN]: Error loading class: net/minecraft/class_979 (java.lang.ClassNotFoundException: net/minecraft/class_979)
+[14:19:40] [main/WARN]: Error loading class: net/minecraft/class_481 (java.lang.ClassNotFoundException: net/minecraft/class_481)
+[14:19:40] [main/WARN]: @Mixin target net.minecraft.class_481 was not found porting_lib_items.mixins.json:client.CreativeModeInventoryScreenMixin from mod porting_lib_items
+[14:19:40] [main/INFO]: Loaded config for: structureessentials.json
+[14:19:40] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[14:19:40] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[14:19:40] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm_shedaniel.json:net.minecraft.class_314 from mod mm_shedaniel
+[14:19:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:19:43] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:19:47] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfm000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:19:48] [main/WARN]: Method overwrite conflict for method_7844 in ranged_weapon_api.mixins.json:item.RangedWeaponItemMixin from mod ranged_weapon_api, previously written by net.projectile_damage.mixin.RangedWeaponItemMixin. Skipping method.
+[14:19:53] [main/INFO]: Registering Listeners!
+[14:19:54] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
+[14:19:54] [main/INFO]: Apugli 2.10.2 has initialized. Powering up your powered up game.
+[14:19:54] [main/ERROR]: No data fixer registered for apugli:custom_area_effect_cloud
+[14:19:54] [main/ERROR]: No data fixer registered for apugli:custom_projectile
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[14:19:55] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[14:19:55] [main/ERROR]: No data fixer registered for artifacts:mimic
+[14:19:55] [main/INFO]: Running compat handler for Origins
+[14:19:55] [main/INFO]: Registered azurelib config for auto-sync function
+[14:19:56] [main/ERROR]: No data fixer registered for bakery:wandering_baker
+[14:19:56] [main/INFO]: Reflections took 49 ms to scan 1 urls, producing 1 keys and 2 values
+[14:19:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[14:19:56] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[14:19:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[14:19:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[14:19:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:19:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[14:19:56] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[14:19:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:19:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:19:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:19:56] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[14:19:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[14:19:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:19:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[14:19:56] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:19:56] [main/ERROR]: No data fixer registered for brewery:rope_knot
+[14:19:56] [main/ERROR]: No data fixer registered for brewery:beer_elemental
+[14:19:56] [main/ERROR]: No data fixer registered for brewery:beer_elemental_attack
+[14:19:56] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
+[14:19:56] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
+[14:19:56] [main/INFO]: Connectivity initialized
+[14:19:56] [main/INFO]: Loaded config for: cupboard.json
+[14:19:56] [main/ERROR]: No data fixer registered for doapi:chair
+[14:19:59] [main/INFO]: Loaded config dummmmmmy-common.json
+[14:20:00] [main/INFO]: Loaded config :emi_loot_config in 765ms
+[14:20:00] [main/INFO]: ExpandAbility here, who dis?
+[14:20:00] [main/INFO]: Hello Fabric world!
+[14:20:00] [main/ERROR]: No data fixer registered for farm_and_charm:rotten_tomato
+[14:20:00] [main/ERROR]: No data fixer registered for farm_and_charm:chest_cart
+[14:20:00] [main/ERROR]: No data fixer registered for farm_and_charm:plow
+[14:20:00] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
+[14:20:00] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
+[14:20:00] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:recharge
+[14:20:00] [main/INFO]: [STDERR]: Failed to resolve EntityAttribute with id: combatroll:count
+[14:20:00] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[14:20:00] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[14:20:00] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
+[14:20:00] [main/INFO]: You shall not Json my recipes !
+[14:20:00] [main/ERROR]: No data fixer registered for lilis_lucky_lures:dynamite
+[14:20:00] [main/ERROR]: No data fixer registered for lilis_lucky_lures:thrown_spear
+[14:20:00] [main/ERROR]: No data fixer registered for lilis_lucky_lures:floating_debris
+[14:20:00] [main/ERROR]: No data fixer registered for lilis_lucky_lures:floating_books
+[14:20:00] [main/ERROR]: No data fixer registered for lilis_lucky_lures:river_fish_pool
+[14:20:00] [main/ERROR]: No data fixer registered for lilis_lucky_lures:ocean_fish_pool
+[14:20:00] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[14:20:00] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[14:20:01] [main/INFO]: Loaded maxhealthfix for Fabric.
+[14:20:01] [main/ERROR]: No data fixer registered for meadow:water_buffalo
+[14:20:01] [main/ERROR]: No data fixer registered for meadow:wooly_cow
+[14:20:01] [main/ERROR]: No data fixer registered for meadow:chair
+[14:20:01] [main/ERROR]: No data fixer registered for meadow:meadow_sheep
+[14:20:01] [main/INFO]: Loading Medieval Origins
+[14:20:01] [main/INFO]: Registering Sounds for medievalorigins
+[14:20:01] [main/INFO]: Definitely not up to no good
+[14:20:01] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
+[14:20:02] [main/INFO]: Shield API initialized!
+[14:20:02] [main/INFO]: structureessentials mod initialized
+[14:20:02] [main/ERROR]: No data fixer registered for 
+[14:20:02] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[14:20:02] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[14:20:02] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[14:20:02] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[14:20:04] [main/ERROR]: No data fixer registered for vinery:mule
+[14:20:04] [main/ERROR]: No data fixer registered for vinery:wandering_winemaker
+[14:20:04] [main/ERROR]: No data fixer registered for vinery:chair
+[14:20:04] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[14:20:04] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[14:20:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:20:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:20:04] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[14:20:04] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[14:20:04] [main/INFO]: Initialized block sets in 14ms
+[14:20:04] [main/ERROR]: No data fixer registered for target_dummy
+[14:20:04] [main/INFO]: Loaded config moonlight-common.json
+[14:20:04] [main/INFO]: Initialized color sets in 43ms
+[14:20:04] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14:20:04] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14:20:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:20:06] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[14:20:06] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[14:20:06] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[14:20:06] [main/WARN]: dehydration:thirst_effect missing from registry, but requested!
+[14:20:06] [main/WARN]: dehydration:hydration_effect missing from registry, but requested!
+[14:20:06] [main/WARN]: hexcasting:enlarge_grid missing from registry, but requested!
+[14:20:06] [main/WARN]: hexcasting:shrink_grid missing from registry, but requested!
+[14:20:06] [main/WARN]: origins-classes:stealth missing from registry, but requested!
+[14:20:06] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:20:07] [main/WARN]: Method overwrite conflict for getRolls in emi_loot.mixins.json:LootPoolAccessor from mod emi_loot, previously written by net.fabricmc.fabric.mixin.loot.table.LootPoolMixin. Skipping method.
+[14:20:09] [main/INFO]: parsing loot tables
+[14:20:09] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@181026b8 for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
+[14:20:09] [main/ERROR]: Thrown Error:
 java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.SetAttributesLootFunctionAccessor failed
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]
@@ -433,7 +433,7 @@ java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.S
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.lambda$parseLootTables$5(LootTableParser.java:151) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
 	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar:?]
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootTables(LootTableParser.java:149) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
-	at net.minecraft.class_4014.mde548e3$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.mde309b1$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
@@ -454,8 +454,8 @@ Caused by: org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadEr
 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]
 	... 33 more
-[13:47:29] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@44af7771 for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
-[13:47:29] [main/ERROR]: Thrown Error:
+[14:20:09] [main/ERROR]: Failed to parse LootFunction of type net.minecraft.class_5339@181026b8 for stack translation{key='item.minecraft.iron_axe', args=[]} in table dungeons_arise:chests/illager_fort/illager_fort_treasure
+[14:20:09] [main/ERROR]: Thrown Error:
 java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.SetAttributesLootFunctionAccessor failed
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.10.jar:?]
@@ -476,7 +476,7 @@ java.lang.RuntimeException: Mixin transformation of fzzyhmstrs.emi_loot.mixins.S
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.lambda$parseLootTables$5(LootTableParser.java:151) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
 	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar:?]
 	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootTables(LootTableParser.java:149) ~[%5BEMI%20Loot%5D%20emi_loot-0.7.5+1.20.1+fix1+fabric.jar:?]
-	at net.minecraft.class_4014.mde548e3$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.mde309b1$emi_loot$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(class_4014.java:523) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
@@ -497,9 +497,9 @@ Caused by: org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadEr
 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.10.jar:?]
 	... 33 more
-[13:47:29] [main/INFO]: finished parsing loot tables
-[13:47:29] [main/INFO]: Added 0 compatibility recipes !
-[13:47:29] [main/ERROR]: Parsing error loading recipe conditional:pot_cooking/cooked_cod_meal
+[14:20:09] [main/INFO]: finished parsing loot tables
+[14:20:09] [main/INFO]: Added 0 compatibility recipes !
+[14:20:09] [main/ERROR]: Parsing error loading recipe conditional:pot_cooking/cooked_cod_meal
 com.google.gson.JsonSyntaxException: Expected item to be a string, was an object ({"it...l"})
 	at net.minecraft.class_3518.method_15287(class_3518.java:119) ~[server-intermediary.jar:?]
 	at net.minecraft.class_3518.method_15265(class_3518.java:125) ~[server-intermediary.jar:?]
@@ -526,212 +526,104 @@ com.google.gson.JsonSyntaxException: Expected item to be a string, was an object
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[13:47:29] [main/INFO]: Loaded 41 recipes
-[13:47:29] [main/INFO]: Loaded 2289 advancements
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:wood_elf/empowered_shot_zenith_velocity_attribute" in power file "medievalorigins:wood_elf/empowered_shot_zenith": Error reading data field at attribute: Identifier "zenith_attributes:arrow_velocity" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading power file medievalorigins:wood_elf/empowered_shot_zenith (skipping): Cannot invoke "io.github.apace100.apoli.power.PowerType.create(net.minecraft.class_1309)" because "powerType" is null
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:high_elf/mana_rpgmana_max_mana" in power file "medievalorigins:high_elf/mana_rpgmana": Error reading data field at modifiers.[0].attribute: Identifier "rpgmana:mana" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:high_elf/mana_rpgmana_highborne_regen" in power file "medievalorigins:high_elf/mana_rpgmana": Error reading data field at modifiers.[0].attribute: Identifier "rpgmana:manaregen" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading power file medievalorigins:high_elf/mana_rpgmana (skipping): Cannot invoke "io.github.apace100.apoli.power.PowerType.create(net.minecraft.class_1309)" because "powerType" is null
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_weapon_boosts" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.bonus_loot_count_rolls" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_weapon_boosts_offhand" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.bonus_loot_count_rolls" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_tool_boosts" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.dig_speed" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading power file medievalorigins:valkyrie/wings (skipping): Power type "medievalorigins:icarus_wings" is not defined.
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:moon_elf/nimble_extra_roll" in power file "medievalorigins:moon_elf/nimble": Error reading data field at modifier.attribute: Identifier "combatroll:count" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:alfiq/pickpocket_active" in power file "medievalorigins:alfiq/pickpocket": Error reading data field at bientity_action.actions.[0]: BiEntityAction json type "origins:modify_resource" is not defined.
-[13:47:29] [main/ERROR]: There was a problem reading sub-power "medievalorigins:valkyrie/vanquisher_spell_power_forge" in power file "medievalorigins:valkyrie/vanquisher": Error reading data field at attribute: Identifier "irons_spellbooks:holy_spell_power" was not registered in registry "minecraft:attribute".
-[13:47:29] [main/INFO]: Finished loading powers from data files. Registry contains 553 powers.
-[13:47:29] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_rpgmana"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_irons"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_irons_ars"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_ars"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:plague_victim" contained unregistered power: "origins_survive:illness_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:valkyrie" contained unregistered power: "medievalorigins:valkyrie/wings"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:revenant" contained unregistered power: "origins_survive:sleepless"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:banshee" contained unregistered power: "origins_survive:sleepless"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:gorgon" contained unregistered power: "origins_env_deh:thirst_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/empowered_shot_zenith"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/empowered_shot_apotheosis"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/spell_power"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:moon_elf" contained unregistered power: "origins_survive:sleepless"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "medievalorigins:yeti/spell_power"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_env_deh:cold_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "thermoo-patches:cold_immune"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_survive:cold_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_toughasnails:cold_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "mermod:fabulous_fins"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "origins_env_deh:water_dweller"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "origins_env_deh:cold_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "thermoo-patches:cold_immune"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "survive:cold_blooded"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_env_deh:heat_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "thermoo-patches:heat_immune"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "thermoo-patches:cold_vulnerability"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_survive:lava_drinker"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_survive:heat_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_toughasnails:lava_drinker"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_toughasnails:thermal_regulator"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:ogre" contained unregistered power: "origins_survive:illness_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "medievalorigins:troll/spell_power"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_env_deh:cold_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "thermoo-patches:cold_immune"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_survive:cold_resistance"
-[13:47:29] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_toughasnails:cold_resistance"
-[13:47:29] [main/INFO]: Finished loading origins from data files. Registry contains 34 origins.
-[13:47:29] [main/INFO]: Trying to read layer file: medievalorigins:magic_subclasses
-[13:47:29] [main/INFO]: Trying to read layer file: origins:origin
-[13:47:29] [main/INFO]: Trying to read layer file: origins:origin
-[13:47:29] [main/INFO]: Trying to read layer file: origins:origin
-[13:47:29] [main/INFO]: Finished loading origin layers from data files. Read 2 layers.
-[13:47:29] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
-[13:47:29] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
-[13:47:29] [main/INFO]: Loaded 0 global power sets.
-[13:47:32] [main/INFO]: Applied 1347 biome modifications to 167 of 167 new biomes in 52.09 ms
-[13:47:32] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[13:47:32] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
-[13:47:32] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 133260 bytes (in 14 string chunks with the size of 10000)
-[13:47:32] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
-[13:47:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:47:32] [Server thread/INFO]: Loading properties
-[13:47:32] [Server thread/INFO]: Default game type: SURVIVAL
-[13:47:32] [Server thread/INFO]: Generating keypair
-[13:47:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:47:32] [Server thread/INFO]: Using epoll channel type
-[13:47:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:47:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:47:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:47:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:47:32] [Server thread/INFO]: Preparing level "world"
-[13:47:37] [Netty Epoll Server IO #1/INFO]: Loaded config for: connectivity.json
-[13:47:39] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[13:47:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:47:40] [Server thread/INFO]: Time elapsed: 481 ms
-[13:47:40] [Server thread/INFO]: Done (7.331s)! For help, type "help"
-[13:47:40] [Server thread/INFO]: Loaded config for: lootintegrations.json
-[13:47:40] [Server thread/INFO]: Start loading plugin from Balm
-[13:47:40] [Server thread/INFO]: Start loading plugin from Jade
-[13:47:40] [Server thread/INFO]: Start loading plugin from Jade
-[13:47:40] [Server thread/INFO]: Start loading plugin from Jade
-[13:47:40] [Server thread/INFO]: Start loading plugin from Polymer (Core)
-[13:47:40] [Server thread/INFO]: Start loading plugin from Waystones
-[13:47:40] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[13:47:40] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[13:48:58] [Server thread/INFO]: LuxSilver[/127.14.84.239:57431] logged in with entity id 1 at (29.392885327067173, 67.0, 160.75391419177825)
-[13:48:58] [Server thread/INFO]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
-[13:48:58] [Server thread/INFO]: Loading config from file...
-[13:48:58] [Server thread/INFO]: LuxSilver joined the game
-[13:48:58] [Server thread/INFO]: Player LuxSilver just logged in with id 627b3782-d24f-356a-b10f-fe70da0cb127
-[13:48:58] [ForkJoinPool-3-worker-1/INFO]: Loading local skin for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
-[13:48:59] [ForkJoinPool-3-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/LuxSilver downloaded
-[13:56:16] [Server thread/INFO]: LuxSilver has made the advancement [Introduction: Mincing I]
-[13:56:18] [Server thread/INFO]: LuxSilver has made the advancement [Introduction: Mincing II]
-[13:59:34] [Server thread/INFO]: LuxSilver has made the advancement [Groundwork Laid]
-[14:04:15] [ForkJoinPool.commonPool-worker-37/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
-	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:04:15] [ForkJoinPool.commonPool-worker-241/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
-	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:04:15] [ForkJoinPool.commonPool-worker-70/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
-	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:04:15] [ForkJoinPool.commonPool-worker-159/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
-	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:04:15] [ForkJoinPool.commonPool-worker-114/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
-	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:04:15] [ForkJoinPool.commonPool-worker-127/WARN]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.class_3218.handler$bgp000$cupboard$OnaddEntity(class_3218.java:1740) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_14175(class_3218.java) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3218.method_8649(class_3218.java:862) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21855(class_4482.java:264) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_21858(class_4482.java:298) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4482.method_31656(class_4482.java:311) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5563.method_31703(class_2818.java:662) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2818$class_5564.method_31703(class_2818.java:716) ~[server-intermediary.jar:?]
-	at me.thegiggitybyte.sleepwarp.runnable.BlockTickRunnable.run(BlockTickRunnable.java:17) ~[%5BSleepWarp%5D%20sleepwarp-2.2.0_rc1+1.20.1.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:16:58] [Server thread/INFO]: LuxSilver has made the advancement [Farmland Finery]
+[14:20:09] [main/INFO]: Loaded 41 recipes
+[14:20:09] [main/INFO]: Loaded 2289 advancements
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:wood_elf/empowered_shot_zenith_velocity_attribute" in power file "medievalorigins:wood_elf/empowered_shot_zenith": Error reading data field at attribute: Identifier "zenith_attributes:arrow_velocity" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading power file medievalorigins:wood_elf/empowered_shot_zenith (skipping): Cannot invoke "io.github.apace100.apoli.power.PowerType.create(net.minecraft.class_1309)" because "powerType" is null
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:high_elf/mana_rpgmana_max_mana" in power file "medievalorigins:high_elf/mana_rpgmana": Error reading data field at modifiers.[0].attribute: Identifier "rpgmana:mana" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:high_elf/mana_rpgmana_highborne_regen" in power file "medievalorigins:high_elf/mana_rpgmana": Error reading data field at modifiers.[0].attribute: Identifier "rpgmana:manaregen" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading power file medievalorigins:high_elf/mana_rpgmana (skipping): Cannot invoke "io.github.apace100.apoli.power.PowerType.create(net.minecraft.class_1309)" because "powerType" is null
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_weapon_boosts" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.bonus_loot_count_rolls" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_weapon_boosts_offhand" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.bonus_loot_count_rolls" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:goblin/greedy_golden_tool_boosts" in power file "medievalorigins:goblin/greedy": Error reading data field at modifiers.[1].attribute: Identifier "additionalentityattributes:player.dig_speed" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading power file medievalorigins:valkyrie/wings (skipping): Power type "medievalorigins:icarus_wings" is not defined.
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:moon_elf/nimble_extra_roll" in power file "medievalorigins:moon_elf/nimble": Error reading data field at modifier.attribute: Identifier "combatroll:count" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:alfiq/pickpocket_active" in power file "medievalorigins:alfiq/pickpocket": Error reading data field at bientity_action.actions.[0]: BiEntityAction json type "origins:modify_resource" is not defined.
+[14:20:09] [main/ERROR]: There was a problem reading sub-power "medievalorigins:valkyrie/vanquisher_spell_power_forge" in power file "medievalorigins:valkyrie/vanquisher": Error reading data field at attribute: Identifier "irons_spellbooks:holy_spell_power" was not registered in registry "minecraft:attribute".
+[14:20:09] [main/INFO]: Finished loading powers from data files. Registry contains 553 powers.
+[14:20:09] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_rpgmana"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_irons"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_irons_ars"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:high_elf" contained unregistered power: "medievalorigins:high_elf/mana_ars"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:plague_victim" contained unregistered power: "origins_survive:illness_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:valkyrie" contained unregistered power: "medievalorigins:valkyrie/wings"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:revenant" contained unregistered power: "origins_survive:sleepless"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:banshee" contained unregistered power: "origins_survive:sleepless"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:gorgon" contained unregistered power: "origins_env_deh:thirst_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/empowered_shot_zenith"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/empowered_shot_apotheosis"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:wood_elf" contained unregistered power: "medievalorigins:wood_elf/spell_power"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:moon_elf" contained unregistered power: "origins_survive:sleepless"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "medievalorigins:yeti/spell_power"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_env_deh:cold_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "thermoo-patches:cold_immune"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_survive:cold_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:yeti" contained unregistered power: "origins_toughasnails:cold_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "mermod:fabulous_fins"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "origins_env_deh:water_dweller"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "origins_env_deh:cold_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "thermoo-patches:cold_immune"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:siren" contained unregistered power: "survive:cold_blooded"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_env_deh:heat_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "thermoo-patches:heat_immune"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "thermoo-patches:cold_vulnerability"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_survive:lava_drinker"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_survive:heat_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_toughasnails:lava_drinker"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:incubus" contained unregistered power: "origins_toughasnails:thermal_regulator"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:ogre" contained unregistered power: "origins_survive:illness_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "medievalorigins:troll/spell_power"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_env_deh:cold_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "thermoo-patches:cold_immune"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_survive:cold_resistance"
+[14:20:09] [main/ERROR]: Origin "medievalorigins:troll" contained unregistered power: "origins_toughasnails:cold_resistance"
+[14:20:09] [main/INFO]: Finished loading origins from data files. Registry contains 34 origins.
+[14:20:09] [main/INFO]: Trying to read layer file: medievalorigins:magic_subclasses
+[14:20:09] [main/INFO]: Trying to read layer file: origins:origin
+[14:20:09] [main/INFO]: Trying to read layer file: origins:origin
+[14:20:09] [main/INFO]: Trying to read layer file: origins:origin
+[14:20:09] [main/INFO]: Finished loading origin layers from data files. Read 2 layers.
+[14:20:09] [main/INFO]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
+[14:20:09] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[14:20:09] [main/INFO]: Loaded 0 global power sets.
+[14:20:12] [main/INFO]: Applied 1347 biome modifications to 167 of 167 new biomes in 42.89 ms
+[14:20:12] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[14:20:12] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[14:20:12] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 133260 bytes (in 14 string chunks with the size of 10000)
+[14:20:12] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
+[14:20:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:20:12] [Server thread/INFO]: Loading properties
+[14:20:12] [Server thread/INFO]: Default game type: SURVIVAL
+[14:20:12] [Server thread/INFO]: Generating keypair
+[14:20:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:20:12] [Server thread/INFO]: Using epoll channel type
+[14:20:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:20:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:20:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:20:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:20:12] [Server thread/INFO]: Preparing level "world"
+[14:20:19] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[14:20:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:20:19] [Server thread/INFO]: Time elapsed: 301 ms
+[14:20:19] [Server thread/INFO]: Done (6.779s)! For help, type "help"
+[14:20:19] [Server thread/INFO]: Loaded config for: connectivity.json
+[14:20:19] [Server thread/INFO]: Loaded config for: lootintegrations.json
+[14:20:19] [Server thread/INFO]: Start loading plugin from Balm
+[14:20:19] [Server thread/INFO]: Start loading plugin from Jade
+[14:20:19] [Server thread/INFO]: Start loading plugin from Jade
+[14:20:19] [Server thread/INFO]: Start loading plugin from Jade
+[14:20:19] [Server thread/INFO]: Start loading plugin from Polymer (Core)
+[14:20:19] [Server thread/INFO]: Start loading plugin from Waystones
+[14:20:19] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14:20:19] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14:21:12] [Server thread/INFO]: LuxSilver[/127.14.84.239:44407] logged in with entity id 1 at (28.801999986171722, 67.50827843952484, 161.80199998617172)
+[14:21:12] [Server thread/INFO]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[14:21:12] [Server thread/INFO]: Loading config from file...
+[14:21:13] [Server thread/INFO]: LuxSilver joined the game
+[14:21:13] [Server thread/INFO]: Player LuxSilver just logged in with id 627b3782-d24f-356a-b10f-fe70da0cb127
+[14:21:13] [ForkJoinPool-3-worker-1/INFO]: Loading local skin for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
+[14:21:13] [ForkJoinPool-3-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/LuxSilver downloaded
+[14:22:11] [Server thread/INFO]: LuxSilver was slain by Zombie
+[14:22:37] [Server thread/INFO]: LuxSilver lost connection: Disconnected
+[14:22:37] [Server thread/INFO]: LuxSilver left the game
+[14:22:37] [Server thread/INFO]: Removing session data for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
