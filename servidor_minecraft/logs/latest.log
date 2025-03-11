@@ -625,3 +625,6 @@ com.google.gson.JsonSyntaxException: Expected item to be a string, was an object
 [13:16:21] [ForkJoinPool-3-worker-1/INFO]: Loading local skin for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
 [13:16:21] [ForkJoinPool-3-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/LuxSilver downloaded
 [13:18:58] [Server thread/INFO]: LuxSilver has made the advancement [Introduction: Drying II]
+[13:25:50] [Server thread/INFO]: LuxSilver lost connection: Disconnected
+[13:25:50] [Server thread/INFO]: LuxSilver left the game
+[13:25:50] [Server thread/INFO]: Removing session data for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
