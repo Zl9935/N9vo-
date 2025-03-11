@@ -1965,6 +1965,12 @@
     },
     "done": true
   },
+  "farm_and_charm:main/use_hoe_on_fertilized_soil": {
+    "criteria": {
+      "use_fertilized_soil": "2025-03-11 15:28:44 +0000"
+    },
+    "done": true
+  },
   "farm_and_charm:recipes/strawberry": {
     "criteria": {
       "has_strawberry_seeds": "2025-03-11 15:01:18 +0000"
