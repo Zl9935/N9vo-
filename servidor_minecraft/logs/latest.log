@@ -769,3 +769,4 @@ java.lang.Exception: null
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
 [15:28:44] [Server thread/INFO]: LuxSilver has made the advancement [Farmland Finery]
 [15:40:45] [Server thread/INFO]: LuxSilver has reached the goal [Juice It Up!]
+[16:03:40] [Server thread/INFO]: LuxSilver has made the advancement [A Seedy Place]
