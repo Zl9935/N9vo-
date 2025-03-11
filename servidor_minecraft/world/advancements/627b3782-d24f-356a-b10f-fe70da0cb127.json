@@ -247,6 +247,7 @@
     "criteria": {
       "minecraft:beach": "2025-03-06 15:33:51 +0000",
       "minecraft:river": "2025-03-06 15:30:54 +0000",
+      "minecraft:cold_ocean": "2025-03-11 16:18:19 +0000",
       "minecraft:forest": "2025-03-06 15:27:31 +0000"
     },
     "done": false
@@ -2025,6 +2026,12 @@
     },
     "done": true
   },
+  "bakery:recipes/sweet_dough": {
+    "criteria": {
+      "has_sugar": "2025-03-11 16:11:51 +0000"
+    },
+    "done": true
+  },
   "vinery:main/juice_it_up": {
     "criteria": {
       "grapevine_pot": "2025-03-11 15:40:45 +0000"
@@ -2052,6 +2059,12 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-03-11 16:00:19 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/dough": {
+    "criteria": {
+      "has_sugar": "2025-03-11 16:11:51 +0000"
     },
     "done": true
   },
@@ -2109,9 +2122,21 @@
     },
     "done": true
   },
+  "bakery:recipes/cake_dough": {
+    "criteria": {
+      "has_sugar": "2025-03-11 16:11:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2025-03-11 16:00:19 +0000"
+    },
+    "done": true
+  },
+  "bakery:main/get_yeast": {
+    "criteria": {
+      "get_yeast": "2025-03-11 16:11:56 +0000"
     },
     "done": true
   },
