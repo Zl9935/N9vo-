@@ -1797,6 +1797,18 @@
     },
     "done": true
   },
+  "farm_and_charm:recipes/window_sill": {
+    "criteria": {
+      "has_flower_pot": "2025-03-11 14:10:57 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/packed_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2025-03-11 14:04:42 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/stone_hoe_repairing": {
     "criteria": {
       "has_stone_hoe": "2025-03-11 13:58:54 +0000"
@@ -1815,9 +1827,27 @@
     },
     "done": true
   },
+  "aether:recipes/building_blocks/blue_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2025-03-11 14:04:42 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/butter": {
+    "criteria": {
+      "has_water_bucket": "2025-03-11 14:04:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-03-11 13:57:38 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/ice_from_bucket_freezing": {
+    "criteria": {
+      "has_water_bucket": "2025-03-11 14:04:42 +0000"
     },
     "done": true
   },
@@ -1845,6 +1875,12 @@
     },
     "done": true
   },
+  "bakery:recipes/yeast": {
+    "criteria": {
+      "has_the_recipe": "2025-03-11 14:04:42 +0000"
+    },
+    "done": true
+  },
   "farm_and_charm:recipes/pitchfork": {
     "criteria": {
       "has_iron_nugget": "2025-03-11 13:55:50 +0000"
@@ -1857,9 +1893,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-11 14:04:42 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/stone_sword_repairing": {
+    "criteria": {
+      "has_stone_sword": "2025-03-11 14:10:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-03-11 13:57:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-03-11 14:09:07 +0000"
     },
     "done": true
   },
@@ -1884,6 +1938,12 @@
   "farm_and_charm:main/get_minced_beef": {
     "criteria": {
       "minced_beef": "2025-03-11 13:56:18 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-03-11 14:09:07 +0000"
     },
     "done": true
   },
