@@ -1401,7 +1401,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "rotten_flesh": "2025-03-06 19:41:13 +0000",
-      "beetroot": "2025-03-06 16:43:28 +0000"
+      "beetroot": "2025-03-06 16:43:28 +0000",
+      "carrot": "2025-03-11 13:39:11 +0000"
     },
     "done": false
   },
@@ -1778,6 +1779,12 @@
     },
     "done": true
   },
+  "farm_and_charm:recipes/fertilized_soil": {
+    "criteria": {
+      "has_fertilizer": "2025-03-11 13:18:58 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/standard_no_tanks": {
     "criteria": {
       "has_chest": "2025-03-11 13:19:47 +0000"
@@ -1787,12 +1794,6 @@
   "travelersbackpack:recipes/misc/standard": {
     "criteria": {
       "has_chest": "2025-03-11 13:19:47 +0000"
-    },
-    "done": true
-  },
-  "farm_and_charm:recipes/fertilized_soil": {
-    "criteria": {
-      "has_fertilizer": "2025-03-11 13:18:58 +0000"
     },
     "done": true
   },
