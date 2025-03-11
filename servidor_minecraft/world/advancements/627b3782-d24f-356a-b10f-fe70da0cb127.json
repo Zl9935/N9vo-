@@ -1748,5 +1748,53 @@
     },
     "done": true
   },
+  "lilis_lucky_lures:recipes/dynamite": {
+    "criteria": {
+      "has_gunpowder": "2025-03-11 13:02:24 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2025-03-11 13:02:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-11 13:02:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-11 13:02:24 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:main/get_fertilizer": {
+    "criteria": {
+      "fertilizer": "2025-03-11 13:18:58 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_no_tanks": {
+    "criteria": {
+      "has_chest": "2025-03-11 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard": {
+    "criteria": {
+      "has_chest": "2025-03-11 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/fertilized_soil": {
+    "criteria": {
+      "has_fertilizer": "2025-03-11 13:18:58 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
