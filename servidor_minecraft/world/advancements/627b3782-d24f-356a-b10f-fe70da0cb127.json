@@ -2020,6 +2020,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-03-11 16:32:26 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/emerald": {
     "criteria": {
       "has_emerald": "2025-03-11 15:48:18 +0000"
@@ -2098,6 +2104,18 @@
     },
     "done": true
   },
+  "aether:recipes/tools/stone_shovel_repairing": {
+    "criteria": {
+      "has_stone_shovel": "2025-03-11 16:30:43 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/loam": {
+    "criteria": {
+      "has_clay_ball": "2025-03-11 16:32:26 +0000"
+    },
+    "done": true
+  },
   "bakery:main/find_wild_crops": {
     "criteria": {
       "tomato_seeds": "2025-03-11 16:24:40 +0000"
@@ -2149,6 +2167,12 @@
   "meadow:recipes/cheesecake": {
     "criteria": {
       "has_wheat": "2025-03-11 15:51:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-03-11 16:32:26 +0000"
     },
     "done": true
   },

@@ -772,3 +772,6 @@ java.lang.Exception: null
 [16:03:40] [Server thread/INFO]: LuxSilver has made the advancement [A Seedy Place]
 [16:11:56] [Server thread/INFO]: LuxSilver has made the advancement [Yeast of your worries, doughn't worry, be happy!]
 [16:24:40] [Server thread/INFO]: LuxSilver has made the advancement [Wild Crops]
+[16:42:21] [Server thread/INFO]: LuxSilver lost connection: Disconnected
+[16:42:21] [Server thread/INFO]: LuxSilver left the game
+[16:42:21] [Server thread/INFO]: Removing session data for player LuxSilver[627b3782-d24f-356a-b10f-fe70da0cb127]
